@@ -20,7 +20,7 @@ jobs:
       - name: Upload jar
         uses: actions/upload-artefact@v2
         with:
-          name:app.jar
+          name: app.jar
           path: ./target/testDemo-0.0.1-SNAPSHOT.jar
 
 
